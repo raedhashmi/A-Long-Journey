@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+}
+
+#starCanvas {
+    z-index: 1;
+    pointer-events: none;
+}
+
+#modelCanvas {
+    z-index: 2;
+    width: 100vw !important;
+    height: 100vh !important;
+}
